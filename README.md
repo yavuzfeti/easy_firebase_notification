@@ -23,17 +23,6 @@ Run ```flutter pub get``` to install the package.
 
 - Firebase Setup: Make sure your Firebase project is set up correctly and you've added Firebase to your Flutter project. You can follow the official documentation for adding Firebase to Flutter: Firebase Flutter Setup.
 
-- Permissions: Request permission for notifications on iOS:
-
-```dart
-FirebaseMessaging messaging = FirebaseMessaging.instance;
-await messaging.requestPermission(
-  alert: true,
-  badge: true,
-  sound: true,
-);
-```
-
 ## Usage
 - Initialize the Package
 
